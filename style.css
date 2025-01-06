@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #131333;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.crow {
+    width: 300px;
+    height: 300px;
+    background: url('media/crow.png') no-repeat center/contain;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.message, .ending {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.message.visible, .ending.visible {
+    opacity: 1;
+}
