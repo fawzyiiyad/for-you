@@ -25,7 +25,7 @@ const bgMusic = document.getElementById('background-music');
 
 // إزالة كتم الصوت عند النقر على الشاشة
 document.body.addEventListener('click', () => {
-    bgMusic.muted = false;
+    bgMusic.paused= false;
     bgMusic.play();
 });
 
