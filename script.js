@@ -102,7 +102,7 @@ style.innerHTML = `
         transform: translateY(-50px) scale(1.5);
         opacity: 0;
 }`;
-  }
+  
     function openPopup(event, url) {
     event.preventDefault(); // منع السلوك الافتراضي (فتح الرابط مباشرة)
     window.open(url, "popupWindow", "width=690,height=650,resizable=no,scrollbars=yes");
